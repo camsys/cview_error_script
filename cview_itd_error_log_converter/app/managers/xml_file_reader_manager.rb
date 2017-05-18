@@ -48,32 +48,6 @@ class XmlFileReaderManager
 
         irp_error.date_received = determine_date_received_from_file_name(xml_file)
 
-
-        # puts(xml_file)
-        # if(irp_error.business_rule_violations.count >= 1)
-        #   puts(irp_error.business_rule_violations[0].message)
-        #   if(irp_error.business_rule_violations_keys.count >= 1)
-        #     puts(irp_error.business_rule_violations_keys[0].vin)
-        #     puts(irp_error.business_rule_violations_keys[0].irp_base_state)
-        #     puts(irp_error.business_rule_violations_keys[0].license_plate_number)
-        #     puts(irp_error.business_rule_violations_keys[0].validated_data)
-        #   else
-        #     puts ('No vilations added')
-        #   end
-        # end
-        # if(irp_error.business_rule_warnings.count >= 1)
-        #   puts(irp_error.business_rule_warnings[0].message)
-        #   if(irp_error.business_rule_warnings_keys.count >= 1)
-        #     puts(irp_error.business_rule_warnings_keys[0].vin)
-        #     puts(irp_error.business_rule_warnings_keys[0].irp_base_state)
-        #     puts(irp_error.business_rule_warnings_keys[0].license_plate_number)
-        #     puts(irp_error.business_rule_warnings_keys[0].validated_data)
-        #   else
-        #     puts ('No WARNINGs added')
-        #   end
-        # end
-        # puts(xml_file)
-
         irp_errors << irp_error
       end
 

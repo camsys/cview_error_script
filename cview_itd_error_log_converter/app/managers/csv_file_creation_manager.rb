@@ -5,7 +5,13 @@ require_relative '../../app/models/irp_error.rb'
 class CsvFileCreationManager
 
   def self.writeCsvFor(dir, iftaErrors, irpErrors)
-    CSV.open("readable_error_report.csv", "wb") do |csv|
+    iftaErrors.sort_by(&:date_received)
+    irpErrors.sort_by(&:date_received)
+
+    first_date = iftaErrors.first.date_received <= irpErrors.first.date_received ? irpErrors.first.date_received : irpErrors.last.date_received
+    last_date = iftaErrors.last.date_received <= irpErrors.last.date_received ? irpErrors.last.date_received : irpErrors.last.date_received
+
+    CSV.open("readable_error_report_#{first_date.strftime("%m_%d_%Y")}_#{last_date.strftime("%m_%d_%Y")}.csv", "wb") do |csv|
 
       csv << ['Date of Error/Warning', 'IRP or IFTA', 'Warning or Error', 'Message', 'VIN', 'License Plate', 'IRP Account #', 'Validated Data', 'Follow-up']
 
