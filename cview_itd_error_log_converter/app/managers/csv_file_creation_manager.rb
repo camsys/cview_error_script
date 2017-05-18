@@ -66,11 +66,11 @@ class CsvFileCreationManager
   def self.find_first_date(iftaErrors, irpErrors)
     date = DateTime.now
     if iftaErrors.count > 0 && irpErrors.count == 0
-      date = DirpErrors.first.date_received
+      date = iftaErrors.first.date_received
     elsif iftaErrors.count == 0 && irpErrors.count > 0
-      date = DirpErrors.first.date_received
+      date = iftaErrors.first.date_received
     elsif iftaErrors.count > 0 && irpErrors.count > 0
-      date = DiftaErrors.first.date_received <= irpErrors.first.date_received ? irpErrors.first.date_received : irpErrors.first.date_received
+      date = iftaErrors.first.date_received <= irpErrors.first.date_received ? irpErrors.first.date_received : irpErrors.first.date_received
     end
 
     date
