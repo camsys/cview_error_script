@@ -11,7 +11,7 @@ class CsvFileCreationManager
     first_date = find_first_date(iftaErrors, irpErrors)
     last_date = find_last_date(iftaErrors, irpErrors)
 
-    CSV.open("SAFER_Error_Logs_#{first_date.strftime("%m_%d_%Y")}_#{last_date.strftime("%m_%d_%Y")}.csv", "wb") do |csv|
+    CSV.open("SAFER_Error_Logs_#{first_date}_#{last_date}.csv", "wb") do |csv|
 
       csv << ['Date of Error/Warning', 'IRP or IFTA', 'Warning or Error', 'Message', 'VIN', 'License Plate', 'IRP Account #', 'Validated Data', 'Follow-up']
 
@@ -51,7 +51,7 @@ class CsvFileCreationManager
   end
 
   def self.find_last_date(iftaErrors, irpErrors)
-    date = DateTime.now
+    date = DateTime.now.strftime("%m_%d_%Y")
     if iftaErrors.count > 0 && irpErrors.count == 0
       date = irpErrors.last.date_received
     elsif iftaErrors.count == 0 && irpErrors.count > 0
@@ -64,7 +64,7 @@ class CsvFileCreationManager
   end
 
   def self.find_first_date(iftaErrors, irpErrors)
-    date = DateTime.now
+    date = DateTime.now.strftime("%m_%d_%Y")
     if iftaErrors.count > 0 && irpErrors.count == 0
       date = iftaErrors.first.date_received
     elsif iftaErrors.count == 0 && irpErrors.count > 0
@@ -73,7 +73,7 @@ class CsvFileCreationManager
       date = iftaErrors.first.date_received <= irpErrors.first.date_received ? irpErrors.first.date_received : irpErrors.first.date_received
     end
 
-    date
+    date.gsub('/', '_')
   end
 
 end
