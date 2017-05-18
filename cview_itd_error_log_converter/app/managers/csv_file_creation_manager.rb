@@ -60,7 +60,7 @@ class CsvFileCreationManager
       date = iftaErrors.last.date_received <= irpErrors.last.date_received ? irpErrors.last.date_received : irpErrors.last.date_received
     end
 
-    date
+    date.gsub('/', '_')
   end
 
   def self.find_first_date(iftaErrors, irpErrors)
