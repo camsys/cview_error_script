@@ -1,0 +1,145 @@
+Date of Error/Warning,IRP or IFTA,Warning or Error,Message,VIN,License Plate,IRP Account #,Validated Data,Follow-up
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000175800,NA,NA,IFTA_CARRIER_ID_NUMBER is 288000
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000213591,NA,NA,IFTA_CARRIER_ID_NUMBER is 3333333
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000593239,NA,NA,IFTA_CARRIER_ID_NUMBER is 8188064
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000810008,NA,NA,IFTA_CARRIER_ID_NUMBER is 3615999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN002612294,NA,NA,IFTA_CARRIER_ID_NUMBER is 7877888
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003185688,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN005140736,NA,NA,IFTA_CARRIER_ID_NUMBER is 77718
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN005786520,NA,NA,IFTA_CARRIER_ID_NUMBER is 3333333
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN007953949,NA,NA,IFTA_CARRIER_ID_NUMBER is 88143
+04/19/2017,IFTA,Error,Older than existing data,TN002466319,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Error,Older than existing data,TN005009930,NA,NA,IFTA_CARRIER_ID_NUMBER is 121
+04/19/2017,IFTA,Error,Older than existing data,TN005709340,NA,NA,IFTA_CARRIER_ID_NUMBER is 12233851
+04/19/2017,IFTA,Error,Older than existing data,TN006750872,NA,NA,IFTA_CARRIER_ID_NUMBER is 46625986
+04/19/2017,IFTA,Error,Older than existing data,TN009850582,NA,NA,IFTA_CARRIER_ID_NUMBER is 106012
+04/19/2017,IFTA,Error,Older than existing data,TN002493064,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Error,Older than existing data,TN008491814,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Error,Older than existing data,TN000354513,NA,NA,IFTA_CARRIER_ID_NUMBER is 115112
+04/19/2017,IFTA,Error,Older than existing data,TN000905285,NA,NA,IFTA_CARRIER_ID_NUMBER is 106797
+04/19/2017,IFTA,Error,Older than existing data,TN001389522,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Error,Older than existing data,TN002539238,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Error,Older than existing data,TN002979563,NA,NA,IFTA_CARRIER_ID_NUMBER is 4210
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN004755104,NA,NA,IFTA_CARRIER_ID_NUMBER is 7113514
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN008128403,NA,NA,IFTA_CARRIER_ID_NUMBER is 128384
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000207872,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN005335950,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN000907547,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN002045286,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003714503,NA,NA,IFTA_CARRIER_ID_NUMBER is 4662680
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003977848,NA,NA,IFTA_CARRIER_ID_NUMBER is 1355141
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN004175189,NA,NA,IFTA_CARRIER_ID_NUMBER is 119650
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN007407565,NA,NA,IFTA_CARRIER_ID_NUMBER is 123
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN007459331,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN008479837,NA,NA,IFTA_CARRIER_ID_NUMBER is 8888888
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN008638720,NA,NA,IFTA_CARRIER_ID_NUMBER is 160442
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN001786600,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN002927550,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003817651,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003896280,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN005614328,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN005991183,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN009556513,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN009794956,NA,NA,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN001801378,NA,NA,IFTA_CARRIER_ID_NUMBER is 4589633
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN003552025,NA,NA,IFTA_CARRIER_ID_NUMBER is 9999999
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN004594642,NA,NA,IFTA_CARRIER_ID_NUMBER is 4724406
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN006251883,NA,NA,IFTA_CARRIER_ID_NUMBER is 7777777
+04/19/2017,IFTA,Warning,IFTA DOT Number is not valid dot number.,TN009979398,NA,NA,IFTA_CARRIER_ID_NUMBER is 250113
+04/18/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUJAPCL83DL92187,G5774HY,TN,VIN is 1FUJAPCL83DL92187
+04/18/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUJGLDR6ASAK8937,G5781HY,TN,VIN is 1FUJGLDR6ASAK8937
+04/18/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKY049X9G5475671,G2638HY,TN,VIN is 1XKY049X9G5475671
+04/18/2017,IRP,Warning,VIN has invalid check digit (9 th character),1Z9M8GK3XEV162146,G5772HY,TN,VIN is 1Z9M8GK3XEV162146
+04/18/2017,IRP,Warning,VIN has invalid check digit (9 th character),2FUJA6CKXADAR7103,G5775HY,TN,VIN is 2FUJA6CKXADAR7103
+04/18/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",IXKYD49X6EJ411889,K172HY,TN,VIN is IXKYD49X6EJ411889
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,,,TN,Current update date: 2017-04-17. New update date: 2017-04-15
+04/19/2017,IRP,Error,Older than existing data,1FUJA6CK57LY89039,G4611HY,TN,
+04/19/2017,IRP,Error,Older than existing data,1FUJA6CK77LZ16645,E5470HY,TN,
+04/19/2017,IRP,Error,Older than existing data,1FUW3MCA2XLB04586,B944HW,TN,
+04/19/2017,IRP,Error,Older than existing data,1FUYSSZB3YLA35103,Y706HY,TN,
+04/19/2017,IRP,Error,Older than existing data,1M1AW09Y0CM019947,G5557HY,TN,
+04/19/2017,IRP,Error,Older than existing data,1M1AW09Y7CM023929,G5558HY,TN,
+04/19/2017,IRP,Error,Older than existing data,2HSCNAPRX6C187037,N662HY,TN,
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",116290P,M406HY,TN,VIN is 116290P
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",178426S,L019HY,TN,VIN is 178426S
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUXFB007DDBX4260,J878HY,TN,VIN is 1FUXFB007DDBX4260
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUYDSE84XP987922,A6989HY,TN,VIN is 1FUYDSE84XP987922
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1FUYSSEB8W827053,U464HY,TN,VIN is 1FUYSSEB8W827053
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),1M1AW09YOCM023917,L909HY,TN,VIN is 1M1AW09YOCM023917
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKWDR9C5VJ735789,A6135HY,TN,VIN is 1XKWDR9C5VJ735789
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP5DB9XOWN454099,B6744HY,TN,VIN is 1XP5DB9XOWN454099
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),2HSCEAPRO3C043072,B6867HY,TN,VIN is 2HSCEAPRO3C043072
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",313689,A186HV,TN,VIN is 313689
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",46187P,P179HY,TN,VIN is 46187P
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),4V4NC8KK59N489709,B3993HY,TN,VIN is 4V4NC8KK59N489709
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",65554P,E0937HY,TN,VIN is 65554P
+04/19/2017,IRP,Warning,VIN has invalid check digit (9 th character),8FUPDDYB4TH595451,M033HY,TN,VIN is 8FUPDDYB4TH595451
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",D371542GL,G887HY,TN,VIN is D371542GL
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",DMV42398,G886HY,TN,VIN is DMV42398
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",J640591GL,B6185HY,TN,VIN is J640591GL
+04/19/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",S311828GL,P574HY,TN,VIN is S311828GL

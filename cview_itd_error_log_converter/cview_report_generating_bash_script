@@ -1,0 +1,75 @@
+#!/bin/bash
+
+
+#This script assumes that:
+# ruby has already been added to the path and that it is accessible and has sufficient permissions to run the script
+
+############################################################
+## Advanced Configs
+############################################################
+version=0.1
+echo "Running version: "$version
+
+ftp_host=ftp-camsys.egnyte.com
+ftp_port=21
+user_name=swftpuser@camsys,ftpuser123
+ftp_directory=/Shared/Misc/CView_Error_Reports
+csv_file_name=readable_error_report.csv
+backup_files_dir=back_up_files
+current_date=`date +%Y-%m-%d`
+
+
+############################################################
+## Clean-Up
+############################################################
+echo "Starting at";  date
+echo "Cleaning Up"
+echo "Copying old xml files to back_up_directory"
+mv app/*.xml $backup_files_dir
+
+copy_filename=$current_date$csv_file_name
+echo "copying the readable report to backup $copy_filename"
+cp app/$csv_file_name $backup_files_dir/$copy_filename
+
+
+############################################################
+## Download xml files
+############################################################
+echo "Downloading files"
+set timeout 1
+
+checkfolder=$(lftp -c "open -u $user_name -p $ftp_port $ftp_host; ls $ftp_directory/RUN.txt")
+if [ "$checkfolder" == "" ];
+then
+echo "folder does not exist, I should email matt that there was a problem"
+else
+echo "folder exist"
+
+echo "open -u $user_name -p $ftp_port $ftp_host; mget -E $ftp_directory/*"
+
+lftp -c "open -u $user_name -p $ftp_port $ftp_host; mget -E $ftp_directory/*"
+mv *.xml app
+
+echo "run ruby"
+ruby app/error_log_converter_service.rb
+
+echo "upload file"
+lftp -c "open -u $user_name -p $ftp_port $ftp_host; cd $ftp_directory; put -c -O $ftp_directory $csv_file_name"
+
+checkupload=$(lftp -c "open -u $user_name -p $ftp_port $ftp_host; ls $ftp_directory $csv_file_name")
+
+if [ "checkupload" == "" ];
+then
+
+echo "email error message to matt"
+
+"sendemail -f mmaranda@camsys.com -t mmaranda@camsys.com; mmaranda@gmail.com -u \"The File Could Not upload please check the script for errors\" -m "see attached" -s 192.152.136.239 -a $csv_file$
+
+else
+
+echo "email file"
+"sendemail -f mmaranda@camsys.com -t mmaranda@camsys.com; mmaranda@gmail.com -u \"Latest Error Results\" -m "see attached" -s 192.152.136.239 -a $csv_file_name"
+
+fi
+
+fi

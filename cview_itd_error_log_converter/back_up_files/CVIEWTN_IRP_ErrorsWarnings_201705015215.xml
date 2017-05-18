@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0022</transactionType>
+    <transactionVersion>03.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2212178216.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>467</numberReceived>
+    <numberApplied>466</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>split files</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range</message>
+      <keys>
+        <vin>4V4M19GF65N372969</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E735HV</license_plate_number>
+        <validated_data>IRP_WEIGHT_CARRIED is 1</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>130607N</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F5447HY</license_plate_number>
+        <validated_data>VIN is 130607N</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUYDCYB0MH378767</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F5389HY</license_plate_number>
+        <validated_data>VIN is 1FUYDCYB0MH378767</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP5DB9X01N659959</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F5449HY</license_plate_number>
+        <validated_data>VIN is 1XP5DB9X01N659959</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP5DB9X35D362680</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F5422HY</license_plate_number>
+        <validated_data>VIN is 1XP5DB9X35D362680</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>3AKJGLDG2ESFR9487</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G6254HY</license_plate_number>
+        <validated_data>VIN is 3AKJGLDG2ESFR9487</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>4V4MC9GBX5N395536</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A3772HY</license_plate_number>
+        <validated_data>VIN is 4V4MC9GBX5N395536</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>4V4NC9TH49281825</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F5037HY</license_plate_number>
+        <validated_data>VIN is 4V4NC9TH49281825</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IRP_ERRORS_WARNINGS>

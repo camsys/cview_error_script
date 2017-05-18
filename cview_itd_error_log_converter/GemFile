@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+# lock to a specific version of Ruby
+# ruby '2.2.2'
+ruby '1.9.3'
+
+#use chrinic to specify gem versions
+gem 'chronic'
+
+#nokogiri-happymapper is an xml parser that helps with quick and easy conversion to a model for more info https://github.com/dam5s/happymapper
+gem 'nokogiri-happymapper', :require => 'happymapper'
+

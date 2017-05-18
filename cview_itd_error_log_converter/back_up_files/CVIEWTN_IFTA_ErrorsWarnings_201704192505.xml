@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IFTA_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0019</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN1910541759.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>5000</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>about to load carrier ifta temp</msg>
+    <msg>loaded 5000 records</msg>
+    <msg>about to set number received</msg>
+    <msg>about to load ifta name temp</msg>
+    <msg>about to load ifta address temp</msg>
+    <msg>finished loading temp tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_warnings>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000175800</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 288000</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000213591</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 3333333</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000593239</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 8188064</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000810008</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 3615999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN002612294</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 7877888</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN003185688</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN005140736</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 77718</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN005786520</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 3333333</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN007953949</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 88143</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IFTA_ERRORS_WARNINGS>

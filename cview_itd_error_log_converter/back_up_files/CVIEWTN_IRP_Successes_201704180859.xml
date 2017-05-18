@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_SUCCESS>
+  <transactionSummary>
+    <transactionType>T0020</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2010777685.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>81</numberReceived>
+    <numberApplied>81</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <transactionSummary>
+    <transactionType>T0021</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2110777687.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>81</numberReceived>
+    <numberApplied>81</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+</IRP_SUCCESS>

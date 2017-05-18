@@ -1,0 +1,38 @@
+Date of Error/Warning,IRP or IFTA,Warning or Error,Message,VIN,License Plate,IRP Account #,Validated Data,Follow-up
+05/01/2017,IRP,Error,IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range,4V4M19GF65N372969,E735HV,TN,IRP_WEIGHT_CARRIED is 1
+05/01/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",130607N,F5447HY,TN,VIN is 130607N
+05/01/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUYDCYB0MH378767,F5389HY,TN,VIN is 1FUYDCYB0MH378767
+05/01/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP5DB9X01N659959,F5449HY,TN,VIN is 1XP5DB9X01N659959
+05/01/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP5DB9X35D362680,F5422HY,TN,VIN is 1XP5DB9X35D362680
+05/01/2017,IRP,Warning,VIN has invalid check digit (9 th character),3AKJGLDG2ESFR9487,G6254HY,TN,VIN is 3AKJGLDG2ESFR9487
+05/01/2017,IRP,Warning,VIN has invalid check digit (9 th character),4V4MC9GBX5N395536,A3772HY,TN,VIN is 4V4MC9GBX5N395536
+05/01/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",4V4NC9TH49281825,F5037HY,TN,VIN is 4V4NC9TH49281825
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",124443P,B058HT,TN,VIN is 124443P
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUJA6CK7BDZ66408,F6562HY,TN,VIN is 1FUJA6CK7BDZ66408
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUJAPB061PG83594,G625HZ,TN,VIN is 1FUJAPB061PG83594
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1M1AEO7Y43W013384,E0498HY,TN,VIN is 1M1AEO7Y43W013384
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1NKDLUOX96J131961,G947HX,TN,VIN is 1NKDLUOX96J131961
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKAD89X5AJ270829,Y173HY,TN,VIN is 1XKAD89X5AJ270829
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKWDB9X8LSS41014,E2800HY,TN,VIN is 1XKWDB9X8LSS41014
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1XKWDU9X21R72414,E1439HY,TN,VIN is 1XKWDU9X21R72414
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP5D89X61D559938,G2619HY,TN,VIN is 1XP5D89X61D559938
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP7DB9X070654173,F9680HY,TN,VIN is 1XP7DB9X070654173
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP7DB9X47DG54029,C8202HY,TN,VIN is 1XP7DB9X47DG54029
+05/02/2017,IRP,Warning,VIN has invalid check digit (9 th character),2HSFHAEROXC040315,F3499HY,TN,VIN is 2HSFHAEROXC040315
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",DM685S37501,A801HW,TN,VIN is DM685S37501
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",IA041146,A7678HY,TN,VIN is IA041146
+05/02/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",U91KVA06169,B345HW,TN,VIN is U91KVA06169
+05/03/2017,IRP,Error,IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range,4V4M19GF65N372969,E735HV,TN,IRP_WEIGHT_CARRIED is 1
+05/03/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUJA6CK67FD12557,F2833HY,TN,VIN is 1FUJA6CK67FD12557
+05/03/2017,IRP,Warning,VIN has invalid check digit (9 th character),3AKJGKBG1GSHT7468,E7927HY,TN,VIN is 3AKJGKBG1GSHT7468
+05/03/2017,IRP,Warning,VIN has invalid check digit (9 th character),4V4MC9GBX5N395536,A3772HY,TN,VIN is 4V4MC9GBX5N395536
+05/04/2017,IRP,Error,IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range,RS686LST56605,F829HV,TN,IRP_WEIGHT_CARRIED is 1
+05/04/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XP5DB9XXRD352109,D7289HY,TN,VIN is 1XP5DB9XXRD352109
+05/04/2017,IRP,Warning,VIN has invalid check digit (9 th character),2FUYDSE85WA839158,G6198HY,TN,VIN is 2FUYDSE85WA839158
+05/04/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",RS686LST56605,F829HV,TN,VIN is RS686LST56605
+05/05/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1FUJGLCK88LZ066064,G6495HY,TN,VIN is 1FUJGLCK88LZ066064
+05/05/2017,IRP,Warning,VIN has invalid check digit (9 th character),1FUYDZYB5WP783917,C9062HY,TN,VIN is 1FUYDZYB5WP783917
+05/05/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKWDB9X45J672445,E2938HY,TN,VIN is 1XKWDB9X45J672445
+05/05/2017,IRP,Warning,VIN has invalid check digit (9 th character),1XKWDB9X97J130707,E7233HY,TN,VIN is 1XKWDB9X97J130707
+05/05/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1XP5DB9X07N34459,F8471HY,TN,VIN is 1XP5DB9X07N34459
+05/05/2017,IRP,Warning,"VIN should be 17 characters and exclude the letters I,O, and Q",1XPXD49X2G332341,E2642HY,TN,VIN is 1XPXD49X2G332341

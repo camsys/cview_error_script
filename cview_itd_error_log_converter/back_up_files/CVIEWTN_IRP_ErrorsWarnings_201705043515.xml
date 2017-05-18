@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0022</transactionType>
+    <transactionVersion>03.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2212478523.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>194</numberReceived>
+    <numberApplied>193</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>split files</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range</message>
+      <keys>
+        <vin>RS686LST56605</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F829HV</license_plate_number>
+        <validated_data>IRP_WEIGHT_CARRIED is 1</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP5DB9XXRD352109</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>D7289HY</license_plate_number>
+        <validated_data>VIN is 1XP5DB9XXRD352109</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>2FUYDSE85WA839158</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G6198HY</license_plate_number>
+        <validated_data>VIN is 2FUYDSE85WA839158</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>RS686LST56605</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F829HV</license_plate_number>
+        <validated_data>VIN is RS686LST56605</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IRP_ERRORS_WARNINGS>

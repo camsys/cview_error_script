@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
+    nokogiri-happymapper (0.5.9)
+      nokogiri (~> 1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chronic
+  nokogiri-happymapper
+
+RUBY VERSION
+   ruby 1.9.3p551
+
+BUNDLED WITH
+   1.14.6

@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0021</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2110541804.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>4943</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>112830</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>13456</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>410</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>137297</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>142683</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>157426</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>170190</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>170567</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>170974</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>171852</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>171935</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>174334</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>177603</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>178738</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>179529</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>179766</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>180009</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>180227</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>181189</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>181498</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>181540</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>182020</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>184243</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>184453</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>185041</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>185331</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>185699</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>185724</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>185726</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>186039</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>186734</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>186875</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>186988</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187045</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187058</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187188</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187354</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187940</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>187971</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>188145</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>188263</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>188554</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>189681</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>191369</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>191453</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>191598</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>192467</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>192905</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>193293</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>23856</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>28673</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>34246</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>37298</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>39983</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>41238</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>44217</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>48517</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>77923</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <transactionSummary>
+    <transactionType>T0021</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2110541807.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>1655</numberReceived>
+    <numberApplied>1646</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>170646</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>192044</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>002</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>193354</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>194676</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>194852</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>194943</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>194955</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>195474</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <irp_account_number>195691</irp_account_number>
+        <irp_base_country>US</irp_base_country>
+        <irp_base_state>TN</irp_base_state>
+        <fleet_number>001</fleet_number>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <transactionSummary>
+    <transactionType>T0022</transactionType>
+    <transactionVersion>03.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2210541913.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>4992</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>split files</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+  </processingMessages>
+  <validationErrors>
+    <msg>Validation Errors for XML transaction file D:\Safer\v45\ftpMirror/SAFER/CVIEWTN2210541913.xml using schema file D:\Safer\v45\XML/CONFIG/T0022V3.xsd.</msg>
+    <msg> Line 578110, Column 48 : XML-24525: (Error) Invalid text 'USYT' in element: 'IRP_JURISDICTION'</msg>
+  </validationErrors>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1FUJA6CK57LY89039</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G4611HY</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1FUJA6CK77LZ16645</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E5470HY</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1FUW3MCA2XLB04586</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B944HW</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1FUYSSZB3YLA35103</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>Y706HY</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1M1AW09Y0CM019947</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G5557HY</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>1M1AW09Y7CM023929</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G5558HY</license_plate_number>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <vin>2HSCNAPRX6C187037</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>N662HY</license_plate_number>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>116290P</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>M406HY</license_plate_number>
+        <validated_data>VIN is 116290P</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>178426S</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>L019HY</license_plate_number>
+        <validated_data>VIN is 178426S</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUXFB007DDBX4260</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>J878HY</license_plate_number>
+        <validated_data>VIN is 1FUXFB007DDBX4260</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUYDSE84XP987922</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A6989HY</license_plate_number>
+        <validated_data>VIN is 1FUYDSE84XP987922</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>1FUYSSEB8W827053</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>U464HY</license_plate_number>
+        <validated_data>VIN is 1FUYSSEB8W827053</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1M1AW09YOCM023917</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>L909HY</license_plate_number>
+        <validated_data>VIN is 1M1AW09YOCM023917</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XKWDR9C5VJ735789</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A6135HY</license_plate_number>
+        <validated_data>VIN is 1XKWDR9C5VJ735789</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP5DB9XOWN454099</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B6744HY</license_plate_number>
+        <validated_data>VIN is 1XP5DB9XOWN454099</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>2HSCEAPRO3C043072</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B6867HY</license_plate_number>
+        <validated_data>VIN is 2HSCEAPRO3C043072</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>313689</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A186HV</license_plate_number>
+        <validated_data>VIN is 313689</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>46187P</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>P179HY</license_plate_number>
+        <validated_data>VIN is 46187P</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>4V4NC8KK59N489709</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B3993HY</license_plate_number>
+        <validated_data>VIN is 4V4NC8KK59N489709</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>65554P</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E0937HY</license_plate_number>
+        <validated_data>VIN is 65554P</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>8FUPDDYB4TH595451</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>M033HY</license_plate_number>
+        <validated_data>VIN is 8FUPDDYB4TH595451</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>D371542GL</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G887HY</license_plate_number>
+        <validated_data>VIN is D371542GL</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>DMV42398</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G886HY</license_plate_number>
+        <validated_data>VIN is DMV42398</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>J640591GL</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B6185HY</license_plate_number>
+        <validated_data>VIN is J640591GL</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>S311828GL</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>P574HY</license_plate_number>
+        <validated_data>VIN is S311828GL</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IRP_ERRORS_WARNINGS>

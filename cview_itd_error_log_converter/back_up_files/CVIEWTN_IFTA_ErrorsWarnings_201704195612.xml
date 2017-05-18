@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IFTA_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0019</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN1910541765.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>5000</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>about to load carrier ifta temp</msg>
+    <msg>loaded 5000 records</msg>
+    <msg>about to set number received</msg>
+    <msg>about to load ifta name temp</msg>
+    <msg>about to load ifta address temp</msg>
+    <msg>finished loading temp tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_warnings>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN002466319</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN005009930</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 121</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN005709340</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 12233851</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN006750872</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 46625986</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN009850582</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 106012</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+  <transactionSummary>
+    <transactionType>T0019</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN1910541771.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>4998</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>about to load carrier ifta temp</msg>
+    <msg>loaded 5000 records</msg>
+    <msg>about to set number received</msg>
+    <msg>about to load ifta name temp</msg>
+    <msg>about to load ifta address temp</msg>
+    <msg>finished loading temp tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN002493064</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN008491814</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000354513</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 115112</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000905285</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 106797</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN001389522</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN002539238</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN002979563</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 4210</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN004755104</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 7113514</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN008128403</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 128384</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+  <transactionSummary>
+    <transactionType>T0019</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN1910541777.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>5000</numberReceived>
+    <numberApplied>4998</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>about to load carrier ifta temp</msg>
+    <msg>loaded 5000 records</msg>
+    <msg>about to set number received</msg>
+    <msg>about to load ifta name temp</msg>
+    <msg>about to load ifta address temp</msg>
+    <msg>finished loading temp tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN000207872</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN005335950</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN000907547</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN002045286</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN003714503</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 4662680</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN003977848</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 1355141</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN004175189</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 119650</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN007407565</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 123</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN007459331</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN008479837</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 8888888</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN008638720</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 160442</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+  <transactionSummary>
+    <transactionType>T0019</transactionType>
+    <transactionVersion>01.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN1910541781.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>2839</numberReceived>
+    <numberApplied>2831</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>truncated working tables</msg>
+    <msg>about to load carrier ifta temp</msg>
+    <msg>loaded 2839 records</msg>
+    <msg>about to set number received</msg>
+    <msg>about to load ifta name temp</msg>
+    <msg>about to load ifta address temp</msg>
+    <msg>finished loading temp tables</msg>
+    <msg>loaded temp tables</msg>
+    <msg>applied rules</msg>
+    <msg>applied to db</msg>
+    <msg>assigned rule info</msg>
+    <msg>reported success to event log</msg>
+    <msg>deleted working files</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN001786600</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN002927550</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN003817651</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN003896280</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN005614328</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN005991183</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN009556513</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+    <error>
+      <message>Older than existing data</message>
+      <keys>
+        <ifta_license_number>TN009794956</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>Current update date: 2017-04-17. New update date: 2017-04-15</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN001801378</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 4589633</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN003552025</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 9999999</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN004594642</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 4724406</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN006251883</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 7777777</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>IFTA DOT Number is not valid dot number.</message>
+      <keys>
+        <ifta_license_number>TN009979398</ifta_license_number>
+        <ifta_base_country>US</ifta_base_country>
+        <ifta_base_state>TN</ifta_base_state>
+        <validated_data>IFTA_CARRIER_ID_NUMBER is 250113</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IFTA_ERRORS_WARNINGS>

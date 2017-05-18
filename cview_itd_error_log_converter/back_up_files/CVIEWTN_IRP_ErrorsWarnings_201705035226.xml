@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0022</transactionType>
+    <transactionVersion>03.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2212377718.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>218</numberReceived>
+    <numberApplied>217</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>split files</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+  </processingMessages>
+  <business_rule_violations>
+    <error>
+      <message>IRP_WEIGHT_CARRIED (NUMBERS of AXLES) is out of the range</message>
+      <keys>
+        <vin>4V4M19GF65N372969</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E735HV</license_plate_number>
+        <validated_data>IRP_WEIGHT_CARRIED is 1</validated_data>
+      </keys>
+    </error>
+  </business_rule_violations>
+  <business_rule_warnings>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUJA6CK67FD12557</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F2833HY</license_plate_number>
+        <validated_data>VIN is 1FUJA6CK67FD12557</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>3AKJGKBG1GSHT7468</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E7927HY</license_plate_number>
+        <validated_data>VIN is 3AKJGKBG1GSHT7468</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>4V4MC9GBX5N395536</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A3772HY</license_plate_number>
+        <validated_data>VIN is 4V4MC9GBX5N395536</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IRP_ERRORS_WARNINGS>

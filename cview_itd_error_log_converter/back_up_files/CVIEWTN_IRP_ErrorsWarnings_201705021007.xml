@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<IRP_ERRORS_WARNINGS>
+  <transactionSummary>
+    <transactionType>T0022</transactionType>
+    <transactionVersion>03.00</transactionVersion>
+    <outcome>success</outcome>
+    <inputFile>CVIEWTN2212277560.zip</inputFile>
+  </transactionSummary>
+  <statistics>
+    <numberReceived>770</numberReceived>
+    <numberApplied>770</numberApplied>
+  </statistics>
+  <processingMessages>
+    <msg>validated</msg>
+    <msg>split files</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+    <msg>truncated working tables</msg>
+    <msg>validated...loaded...rules...applied...assigned...reported...deleted...</msg>
+  </processingMessages>
+  <business_rule_warnings>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>124443P</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B058HT</license_plate_number>
+        <validated_data>VIN is 124443P</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUJA6CK7BDZ66408</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F6562HY</license_plate_number>
+        <validated_data>VIN is 1FUJA6CK7BDZ66408</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1FUJAPB061PG83594</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G625HZ</license_plate_number>
+        <validated_data>VIN is 1FUJAPB061PG83594</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>1M1AEO7Y43W013384</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E0498HY</license_plate_number>
+        <validated_data>VIN is 1M1AEO7Y43W013384</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>1NKDLUOX96J131961</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G947HX</license_plate_number>
+        <validated_data>VIN is 1NKDLUOX96J131961</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XKAD89X5AJ270829</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>Y173HY</license_plate_number>
+        <validated_data>VIN is 1XKAD89X5AJ270829</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XKWDB9X8LSS41014</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E2800HY</license_plate_number>
+        <validated_data>VIN is 1XKWDB9X8LSS41014</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>1XKWDU9X21R72414</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>E1439HY</license_plate_number>
+        <validated_data>VIN is 1XKWDU9X21R72414</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP5D89X61D559938</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>G2619HY</license_plate_number>
+        <validated_data>VIN is 1XP5D89X61D559938</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP7DB9X070654173</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F9680HY</license_plate_number>
+        <validated_data>VIN is 1XP7DB9X070654173</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>1XP7DB9X47DG54029</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>C8202HY</license_plate_number>
+        <validated_data>VIN is 1XP7DB9X47DG54029</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN has invalid check digit (9 th character)</message>
+      <keys>
+        <vin>2HSFHAEROXC040315</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>F3499HY</license_plate_number>
+        <validated_data>VIN is 2HSFHAEROXC040315</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>DM685S37501</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A801HW</license_plate_number>
+        <validated_data>VIN is DM685S37501</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>IA041146</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>A7678HY</license_plate_number>
+        <validated_data>VIN is IA041146</validated_data>
+      </keys>
+    </warning>
+    <warning>
+      <message>VIN should be 17 characters and exclude the letters I,O, and Q</message>
+      <keys>
+        <vin>U91KVA06169</vin>
+        <irp_base_state>TN</irp_base_state>
+        <license_plate_number>B345HW</license_plate_number>
+        <validated_data>VIN is U91KVA06169</validated_data>
+      </keys>
+    </warning>
+  </business_rule_warnings>
+</IRP_ERRORS_WARNINGS>
