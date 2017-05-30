@@ -12,17 +12,18 @@ echo "Running version: "$version
 
 ftp_host=ftp-camsys.egnyte.com
 ftp_port=21
-user_name=swftpuser@camsys,XXXXXX
+user_name=swftpuser@camsys,XXXXX
+#user_name=mmaranda@camsys,XXXXX
 complete_file_name=~/cview_script/cview_error_script/cview_itd_error_log_converter
-#ftp_directory=/Shared/Misc/CView_Error_Reports
+ftp_directory=/Shared/Misc/CView_Error_Reports
 #ftp_directory=/Private/swftpuser/CView_Error_Reports
-ftp_directory=/Private/mmaranda/CView_Errors
+#ftp_directory=/Private/mmaranda/CView_Errors
 csv_file_name=SAFER_Error_Logs_
 backup_files_dir=back_up_files
 current_date=`date +%Y-%m-%d`
-#email_recipients=mmaranda@camsys.com,mmaranda@gmail.com
+#email_recipients=ldestro@camsys.com, bstewart@camsys.com, mmaranda@camsys.com, mmaranda@gmail.com
 email_recipients=mmaranda@camsys.com,mmaranda@gmail.com
-
+email_error_recipients=mmaranda@camsys.com,mmaranda@gmail.com
 
 
 ############################################################
@@ -31,14 +32,14 @@ email_recipients=mmaranda@camsys.com,mmaranda@gmail.com
 echo "Starting at";  date
 echo "Cleaning Up"
 echo "Copying old xml files to back_up_directory"
-mv $complete_file_name/app/*.xml $complete_file_name/$backup_files_dir
 mv $complete_file_name/*.xml $complete_file_name/$backup_files_dir
+mv ~/*.xml $complete_file_name/$backup_files_dir
 rm -f $complete_file_name/RUN.txt
 
 echo "copying the readable report to backup $copy_filename"
 #cp app/$csv_file_name* $backup_files_dir/
-cp $complete_file_name/$csv_file_name* $complete_file_name/$backup_files_dir/
-cp ~/$csv_file_name* $complete_file_name/$backup_files_dir/
+mv $complete_file_name/$csv_file_name* $complete_file_name/$backup_files_dir/
+mv ~/$csv_file_name* $complete_file_name/$backup_files_dir/
 
 ############################################################
 ## Download xml files
@@ -55,30 +56,32 @@ else
     echo "folder exist"
 
     lftp -c "open -u $user_name -p $ftp_port $ftp_host; set net:reconnect-interval-base 5; set net:max-retries 2; mget -E $ftp_directory/* -O $complete_file_name/"
-    #mv *.xml app
-
+    mv $complete_file_name/*.xml ~/
+#
     echo "run ruby"
     ruby $complete_file_name/app/error_log_converter_service.rb
-
+#
     echo "upload file"
     filenamed=$(ls SAFER_Error_Logs_*)
     lftp -c "open -u $user_name -p $ftp_port $ftp_host; set net:reconnect-interval-base 5; set net:max-retries 2; cd $ftp_directory; put -c -O $ftp_directory ~/$filenamed"
-
+#
     checkupload=$(lftp -c "open -u $user_name -p $ftp_port $ftp_host; set net:reconnect-interval-base 5; set net:max-retries 2; ls $ftp_directory/$filenamed")
-
+#
     if [ -z "$checkupload" ]
     then
-
-        echo "email error message to matt"
-
-        sendemail -f mmaranda@camsys.com -t mmaranda@camsys.com, mmaranda@gmail.com -u "The File Could Not upload please check the script for errors" -m "ERROR" -s 192.152.136.239
-
+#
+       echo "email error message to matt"
+#
+       sendemail -f mmaranda@camsys.com -t $email_error_recipients -u "The File Could Not upload please check the script for errors" -m "ERROR" -s 192.152.136.239
+#
     else
-
+#
         echo "email file"
         sendemail -f mmaranda@camsys.com -t $email_recipients -u "Latest Error Report" -m "see attached" -s 192.152.136.239 -a ~/$filenamed
 #        sendemail -f mmaranda@camsys.com -t ldestro@camsys.com, bstewart@camsys.com, mmaranda@camsys.com, mmaranda@gmail.com -u "Latest Error Report" -m "see attached" -s 192.152.136.239 -a ~/$filenamed
-
+#
     fi
-
+#
 fi
+
+
