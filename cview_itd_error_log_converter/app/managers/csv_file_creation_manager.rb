@@ -4,9 +4,9 @@ require_relative '../../app/models/irp_error.rb'
 
 class CsvFileCreationManager
 
-  def self.writeCsvFor(dir, iftaErrors, irpErrors)
-    iftaErrors.sort_by(&:date_received)
-    irpErrors.sort_by(&:date_received)
+  def self.writeCsvFor(dir, unsorted_iftaErrors, unsorted_irpErrors)
+    iftaErrors = unsorted_iftaErrors.sort_by(&:date_received)
+    irpErrors = unsorted_irpErrors.sort_by(&:date_received)
 
     first_date = find_first_date(iftaErrors, irpErrors)
     last_date = find_last_date(iftaErrors, irpErrors)
@@ -53,7 +53,7 @@ class CsvFileCreationManager
   def self.find_last_date(iftaErrors, irpErrors)
     date = DateTime.now.strftime("%m_%d_%Y")
     if iftaErrors.count > 0 && irpErrors.count == 0
-      date = irpErrors.last.date_received
+      date = iftaErrors.last.date_received
     elsif iftaErrors.count == 0 && irpErrors.count > 0
       date = irpErrors.last.date_received
     elsif iftaErrors.count > 0 && irpErrors.count > 0
@@ -68,7 +68,7 @@ class CsvFileCreationManager
     if iftaErrors.count > 0 && irpErrors.count == 0
       date = iftaErrors.first.date_received
     elsif iftaErrors.count == 0 && irpErrors.count > 0
-      date = iftaErrors.first.date_received
+      date = irpErrors.first.date_received
     elsif iftaErrors.count > 0 && irpErrors.count > 0
       date = iftaErrors.first.date_received <= irpErrors.first.date_received ? irpErrors.first.date_received : irpErrors.first.date_received
     end

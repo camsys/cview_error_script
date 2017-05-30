@@ -34,7 +34,7 @@ class XmlFileReaderManager
 
 
     Dir.glob("*.xml") do |xml_file|
-    if( xml_file.include?('IRP') && !xml_file.include?('Success') )
+      if( xml_file.include?('IRP') && !xml_file.include?('Success') )
         irp_error_xml = File.read(xml_file)
 
         irp_error = IrpError.new
